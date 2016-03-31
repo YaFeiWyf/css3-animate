@@ -7,6 +7,7 @@ color:
 
 html {
 	font-family: "Jura",sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 table {
 	width: 100%;
@@ -32,15 +33,16 @@ h2 {
 span {
 	display: inline-block;
 }
-.container {
+#animate {
 	width: 50%;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	margin: 30px auto;
+	margin: 80px auto;
 	padding: 30px 50px;
 	box-sizing: border-box;
 	border-radius: 5px;
+	background-color: #fff;
 }
-.container>h1 {
+#animate>h1 {
 	text-align: center;
 }
 section {
@@ -191,12 +193,12 @@ section {
 }
 .C_load3 span:nth-child(6) {
 	position: absolute;
-	right:76px;
+	right:79px;
 	animation: c_load3_r 1.3s alternate infinite;
 }
 @keyframes c_load3 {
 	0% {
-		right: 276px;
+		right: 256px;
 	}
 	25% {
 		right:176px;
@@ -205,24 +207,24 @@ section {
 		right:176px;
 	}
 	100% {
-		right:276px;
+		right:256px;
 	}
 }
 @keyframes c_load3_r {
 	0% {
-		right: 76px;
+		right: 79px;
 	}
 	25% {
-		right:76px;
+		right:79px;
 	}
 	50% {
-		right:-16px;
+		right:-1px;
 	}
 	75% {
-		right:76px;
+		right:79px;
 	}
 	100% {
-		right:76px;
+		right:79px;
 	}
 }
 .C_load4 span {
